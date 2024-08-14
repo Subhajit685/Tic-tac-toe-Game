@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(42, 83, 121);
+}
+
+.nav {
+    height: 5rem;
+    width: 100vw;
+    background-color: rgb(11, 11, 36);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.box {
+    height: 8rem;
+    width: 8rem;
+    background-color: #e9b0b0;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxs {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 6rem;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    gap: 1rem;
+}
+
+.second {
+    display: flex;
+    gap: 1rem;
+}
+
+.third {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    height: 5rem;
+    width: 5rem;
+    background-color: #c98181;
+}
+
+.msg{
+    height: 13rem;
+    width: 100vw;
+    /* background-color: #fff; */
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.newgame{
+    display: flex;
+    justify-content: center;
+}
+.reset{
+    height: 3rem;
+    width: 6rem;
+    background-color: #fff;
+    border-radius: 10px;
+    color: white;
+    background-color: #190c0c;
+    font-size: 1rem;
+}
